@@ -1,0 +1,30 @@
+.owl-prev{
+    position: absolute;
+    top: 50%;
+    left: -50px;
+    transform: translateY(-50%);
+    font-size: 35px !important;
+}
+.owl-next{
+    position: absolute;
+    top: 50%;
+    right: -50px;
+    transform: translateY(-50%);
+    font-size: 35px !important; 
+}
+.ka{
+    position: relative;
+}
+.kc{
+    position: absolute;
+    top: 10px;
+    left: 30px;
+    color: rgb(15, 15, 15);
+    cursor: pointer;
+    z-index: 2;
+    font-weight: bold;
+}
+.kc:hover{
+    color: white;
+    
+}

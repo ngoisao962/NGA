@@ -1,0 +1,61 @@
+.tieude{
+    background: #505050;
+    border-radius: 8px 8px 0px 0px;
+    width: 100%;
+    padding: 3px 12px;
+    color: white;
+}
+.la{
+    background: #f2f2f2;
+    padding: 16px 0;
+}
+.re_title{
+    background: #505050;
+    border-radius: 8px 8px 0px 0px;
+    color: #fff;
+    font-family: "Nunito Bold" !important;
+    font-size: 12px;
+    line-height: 20px;
+    font-weight: normal !important;
+    padding: 3px 12px;
+    text-transform: uppercase;
+    display: inline-block;
+}
+.re_h2{
+    border-bottom: 2px solid #505050;
+    height: 26px;
+}
+.tinthitruong{
+    line-height: 16px;
+}
+.ah li{
+    font-size: 12px;
+    font-weight: 500;
+}
+.re__box-header-full {
+    background: #505050;
+    border-radius: 8px 8px 0px 0px;
+    width: 100%;
+    padding: 3px 12px;
+    display: block;
+    text-align: center;
+}
+.re__box-thumbnail{
+    border: 1px solid #ccc;
+    border-radius: 0 0 8px 8px;
+    padding: 6px;
+}
+a:hover{
+    color: white;
+    text-decoration: none;
+}
+.rowww li{
+    list-style: none;
+    margin-bottom: 20px;
+    border-bottom: 1px solid #ccc;
+    padding-bottom: 10px;
+}
+.rowww li a{
+    color: #2c2c2c;
+
+}

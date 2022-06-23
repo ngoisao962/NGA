@@ -1,0 +1,719 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link
+      rel="stylesheet"
+      href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+    />
+    <link rel="stylesheet" href="css/owl.carousel.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <link
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css"
+      rel="stylesheet"
+    />
+    <link
+      href="https://cdnjs.cloudflare.com/ajax/libs/mdb-ui-kit/4.2.0/mdb.min.css"
+      rel="stylesheet"
+    />
+    <script
+      src="https://kit.fontawesome.com/ece145a5a4.js"
+      crossorigin="anonymous"
+    ></script>
+    <link rel="stylesheet" href="tintuc.css">
+    <style>
+       a{text-decoration: none;}
+    </style>
+  </head>
+  <body>
+    <!-- Navbar -->
+<nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <!-- Container wrapper -->
+    <div class="container-fluid">
+      <!-- Toggle button -->
+      <button
+        class="navbar-toggler"
+        type="button"
+        data-mdb-toggle="collapse"
+        data-mdb-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent"
+        aria-expanded="false"
+        aria-label="Toggle navigation"
+      >
+        <i class="fas fa-bars"></i>
+      </button>
+  
+      <!-- Collapsible wrapper -->
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <!-- Navbar brand -->
+        <a class="navbar-brand mt-2 mt-lg-0" href="#">
+          <img
+            src="https://mdbcdn.b-cdn.net/img/logo/mdb-transaprent-noshadows.webp"
+            height="15"
+            alt="MDB Logo"
+            loading="lazy"
+          />
+        </a>
+        <!-- Left links -->
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+          <li class="nav-item">
+            <a class="nav-link" href="#">Dashboard</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Team</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Projects</a>
+          </li>
+        </ul>
+        <!-- Left links -->
+      </div>
+      <!-- Collapsible wrapper -->
+  
+      <!-- Right elements -->
+      <div class="d-flex align-items-center">
+        <!-- Icon -->
+        <a class="text-reset me-3" href="#">
+          <i class="fas fa-shopping-cart"></i>
+        </a>
+  
+        <!-- Notifications -->
+        <div class="dropdown">
+          <a
+            class="text-reset me-3 dropdown-toggle hidden-arrow"
+            href="#"
+            id="navbarDropdownMenuLink"
+            role="button"
+            data-mdb-toggle="dropdown"
+            aria-expanded="false"
+          >
+            <i class="fas fa-bell"></i>
+            <span class="badge rounded-pill badge-notification bg-danger">1</span>
+          </a>
+          <ul
+            class="dropdown-menu dropdown-menu-end"
+            aria-labelledby="navbarDropdownMenuLink"
+          >
+            <li>
+              <a class="dropdown-item" href="#">Some news</a>
+            </li>
+            <li>
+              <a class="dropdown-item" href="#">Another news</a>
+            </li>
+            <li>
+              <a class="dropdown-item" href="#">Something else here</a>
+            </li>
+          </ul>
+        </div>
+        <!-- Avatar -->
+        <div class="dropdown">
+          <a
+            class="dropdown-toggle d-flex align-items-center hidden-arrow"
+            href="#"
+            id="navbarDropdownMenuAvatar"
+            role="button"
+            data-mdb-toggle="dropdown"
+            aria-expanded="false"
+          >
+            <img
+              src="https://mdbcdn.b-cdn.net/img/new/avatars/2.webp"
+              class="rounded-circle"
+              height="25"
+              alt="Black and White Portrait of a Man"
+              loading="lazy"
+            />
+          </a>
+          <ul
+            class="dropdown-menu dropdown-menu-end"
+            aria-labelledby="navbarDropdownMenuAvatar"
+          >
+            <li>
+              <a class="dropdown-item" href="#">My profile</a>
+            </li>
+            <li>
+              <a class="dropdown-item" href="#">Settings</a>
+            </li>
+            <li>
+              <a class="dropdown-item" href="#">Logout</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+      <!-- Right elements -->
+    </div>
+    <!-- Container wrapper -->
+  </nav>
+  <!-- Navbar -->
+  <div class="container my-4">
+    <div class="row">
+        <div class="col-md-2">
+            <img src="https://tpc.googlesyndication.com/simgad/9879079087227953210" class="img-fluid w-100" alt="">
+        </div>
+        <div class="col-md-6">
+            <div class="tong">
+               <div class="row">
+                <div class="tieude">
+                    <div class="re_h2">
+                        <h1 href="" class="re_title">Tin tức bất động sản  - Tin nổi bật</h1>
+                    </div>
+                   </div>
+               </div>
+                <div class="row la">
+                    <div class="col-md-6">
+                        <img src="https://file4.batdongsan.com.vn/crop/610x342/2022/06/21/wxbwknn6/20220621161248-386d.jpg" class="img-fluid w-100" alt="">
+                        <p style="font-size: 14px;" ><strong>Bất động sản cho thuê phục hồi diện rộng</strong></p>
+                        <p style="font-size: 12px;">Bất động sản cho thuê ở tất cả các loại hình, từ căn hộ, nhà phố, nhà trọ đến văn phòng, kho xưởng cho thuê tiếp tục phục hồi trong tháng 5, nhu cầu tìm kiếm tại tất cả các tỉnh thành đều tăng.</p>
+                    </div>
+                    <div class="col-md-6">
+                        <div class="row">
+                            <div class="col-md-4 mb-2">
+                                <img src="https://file4.batdongsan.com.vn/crop/610x342/2022/06/21/wxbwknn6/20220621103357-e8c5.jpg" class="img-fluid w-100" alt="">
+                            </div>
+                            <div class="col-md-8">
+                                <a href="" style="font-size: 13px; color: rgb(123, 120, 120);">
+                                    Giá chung cư Hà Nội tăng 8% so với năm 2021
+                                </a>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-md-4 mb-2">
+                                <img src="https://file4.batdongsan.com.vn/crop/610x342/2022/06/21/wxbwknn6/20220621103357-e8c5.jpg" class="img-fluid w-100" alt="">
+                            </div>
+                            <div class="col-md-8">
+                                <a href="" style="font-size: 13px; color: rgb(123, 120, 120);">
+                                    Giá chung cư Hà Nội tăng 8% so với năm 2021
+                                </a>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-md-4 mb-2">
+                                <img src="https://file4.batdongsan.com.vn/crop/610x342/2022/06/21/wxbwknn6/20220621103357-e8c5.jpg" class="img-fluid w-100" alt="">
+                            </div>
+                            <div class="col-md-8">
+                                <a href="" style="font-size: 13px; color: rgb(123, 120, 120);">
+                                    Giá chung cư Hà Nội tăng 8% so với năm 2021
+                                </a>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-md-12 ah">
+                                <li>Sống chất với những gì tinh hoa nhất</li>
+                                <li>Sun Casa Central hấp dẫn giới đầu tư nhờ lợi nhuận kép</li>
+                                <li>Hạ tầng nâng cấp – Miền Tây hưởng lợi</li>
+                                <li>Đất nền sổ đỏ vẫn chưa bao giờ hết “hot”</li>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="my-3"><strong>Tin tức bất động sản theo chuyên mục:</strong></div>
+            <div class="">
+                <div class="tinthitruong my-3">
+                    <div class="re_h2">
+                        <a href="" class="re_title">Tin thị trường</a>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-md-6">
+                            <div class="row mb-2">
+                                <div class="col-md-5">
+                                    <img src="https://file4.batdongsan.com.vn/crop/610x342/2022/06/21/PHJN6Zw0/20220621160842-582b.jpg" class="img-fluid" alt="">
+                                </div>
+                                <div class="col-md-7">
+                                    <p style="font-size: 13px;"><strong>
+                                        Giải cơn khát nguồn cung sản phẩm BĐS cao tầng nội thành Hà Nội
+                                    </strong></p>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col-md-12">
+                                    <p style="font-size: 12px;">Sở hữu một căn hộ trong khu vực nội thành luôn là mơ ước và mục tiêu của nhiều người dân. Nhưng sự khan hiếm các dự án chung cư cao tầng trong nội thành và giá bất động sản không ngừng leo thang lại khiến mục tiêu trên càng khó thực hiện.</p>
+                                </div>
+                            </div>
+                    </div>
+                    <div class="col-md-6">
+                        <div class="row">
+                            <div class="col-md-3">
+                                <img src="https://file4.batdongsan.com.vn/crop/140x78/2022/06/20/FTnaKngu/20220620112102-7883.jpg" class="img-fluid"  alt="">
+                            </div>
+                            <div class="col-md-9">
+                                <p style="font-size: 12px;"><strong>
+                                    Đất nền vùng ven Sài Gòn dứt sốt, nhà đầu tư tìm cách thoát hàng
+                                </strong></p>
+                            </div>
+                        </div>
+                        <div class="row ah">
+                            <li>Dự án văn phòng hạng A Lancaster Luminaire – Hình ảnh văn phòng tương lai</li>
+                            <li>TNR Grand Long Khánh – Sáng nhờ vị trí, lợi nhờ tầm nhìn</li>
+                            <li>Dự án nào hưởng lợi từ “sóng” hạ tầng khu Tây Bắc TP.HCM?</li>
+                            <li>Mê Linh (Hà Nội) lại sốt đất?</li>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="">
+                <div class="tinthitruong my-3">
+                    <div class="re_h2">
+                        <a href="" class="re_title">PHÂN TÍCH - NHẬN ĐỊNH</a>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-md-6">
+                            <div class="row mb-2">
+                                <div class="col-md-5">
+                                    <img src="https://file4.batdongsan.com.vn/crop/610x342/2022/06/21/PHJN6Zw0/20220621160842-582b.jpg" class="img-fluid" alt="">
+                                </div>
+                                <div class="col-md-7">
+                                    <p style="font-size: 13px;"><strong>
+                                        Giải cơn khát nguồn cung sản phẩm BĐS cao tầng nội thành Hà Nội
+                                    </strong></p>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col-md-12">
+                                    <p style="font-size: 12px;">Sở hữu một căn hộ trong khu vực nội thành luôn là mơ ước và mục tiêu của nhiều người dân. Nhưng sự khan hiếm các dự án chung cư cao tầng trong nội thành và giá bất động sản không ngừng leo thang lại khiến mục tiêu trên càng khó thực hiện.</p>
+                                </div>
+                            </div>
+                    </div>
+                    <div class="col-md-6">
+                        <div class="row">
+                            <div class="col-md-3">
+                                <img src="https://file4.batdongsan.com.vn/crop/140x78/2022/06/20/FTnaKngu/20220620112102-7883.jpg" class="img-fluid"  alt="">
+                            </div>
+                            <div class="col-md-9">
+                                <p style="font-size: 12px;"><strong>
+                                    Đất nền vùng ven Sài Gòn dứt sốt, nhà đầu tư tìm cách thoát hàng
+                                </strong></p>
+                            </div>
+                        </div>
+                        <div class="row ah">
+                            <li>Dự án văn phòng hạng A Lancaster Luminaire – Hình ảnh văn phòng tương lai</li>
+                            <li>TNR Grand Long Khánh – Sáng nhờ vị trí, lợi nhờ tầm nhìn</li>
+                            <li>Dự án nào hưởng lợi từ “sóng” hạ tầng khu Tây Bắc TP.HCM?</li>
+                            <li>Mê Linh (Hà Nội) lại sốt đất?</li>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="">
+                <div class="tinthitruong my-3">
+                    <div class="re_h2">
+                        <a href="" class="re_title">CHÍNH SÁCH QUẢN LÝ</a>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-md-6">
+                            <div class="row mb-2">
+                                <div class="col-md-5">
+                                    <img src="https://file4.batdongsan.com.vn/crop/610x342/2022/06/21/PHJN6Zw0/20220621160842-582b.jpg" class="img-fluid" alt="">
+                                </div>
+                                <div class="col-md-7">
+                                    <p style="font-size: 13px;"><strong>
+                                        Giải cơn khát nguồn cung sản phẩm BĐS cao tầng nội thành Hà Nội
+                                    </strong></p>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col-md-12">
+                                    <p style="font-size: 12px;">Sở hữu một căn hộ trong khu vực nội thành luôn là mơ ước và mục tiêu của nhiều người dân. Nhưng sự khan hiếm các dự án chung cư cao tầng trong nội thành và giá bất động sản không ngừng leo thang lại khiến mục tiêu trên càng khó thực hiện.</p>
+                                </div>
+                            </div>
+                    </div>
+                    <div class="col-md-6">
+                        <div class="row">
+                            <div class="col-md-3">
+                                <img src="https://file4.batdongsan.com.vn/crop/140x78/2022/06/20/FTnaKngu/20220620112102-7883.jpg" class="img-fluid"  alt="">
+                            </div>
+                            <div class="col-md-9">
+                                <p style="font-size: 12px;"><strong>
+                                    Đất nền vùng ven Sài Gòn dứt sốt, nhà đầu tư tìm cách thoát hàng
+                                </strong></p>
+                            </div>
+                        </div>
+                        <div class="row ah">
+                            <li>Dự án văn phòng hạng A Lancaster Luminaire – Hình ảnh văn phòng tương lai</li>
+                            <li>TNR Grand Long Khánh – Sáng nhờ vị trí, lợi nhờ tầm nhìn</li>
+                            <li>Dự án nào hưởng lợi từ “sóng” hạ tầng khu Tây Bắc TP.HCM?</li>
+                            <li>Mê Linh (Hà Nội) lại sốt đất?</li>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="">
+                <div class="tinthitruong my-3">
+                    <div class="re_h2">
+                        <a href="" class="re_title">Tin thị trường</a>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-md-6">
+                            <div class="row mb-2">
+                                <div class="col-md-5">
+                                    <img src="https://file4.batdongsan.com.vn/crop/610x342/2022/06/21/PHJN6Zw0/20220621160842-582b.jpg" class="img-fluid" alt="">
+                                </div>
+                                <div class="col-md-7">
+                                    <p style="font-size: 13px;"><strong>
+                                        Giải cơn khát nguồn cung sản phẩm BĐS cao tầng nội thành Hà Nội
+                                    </strong></p>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col-md-12">
+                                    <p style="font-size: 12px;">Sở hữu một căn hộ trong khu vực nội thành luôn là mơ ước và mục tiêu của nhiều người dân. Nhưng sự khan hiếm các dự án chung cư cao tầng trong nội thành và giá bất động sản không ngừng leo thang lại khiến mục tiêu trên càng khó thực hiện.</p>
+                                </div>
+                            </div>
+                    </div>
+                    <div class="col-md-6">
+                        <div class="row">
+                            <div class="col-md-3">
+                                <img src="https://file4.batdongsan.com.vn/crop/140x78/2022/06/20/FTnaKngu/20220620112102-7883.jpg" class="img-fluid"  alt="">
+                            </div>
+                            <div class="col-md-9">
+                                <p style="font-size: 12px;"><strong>
+                                    Đất nền vùng ven Sài Gòn dứt sốt, nhà đầu tư tìm cách thoát hàng
+                                </strong></p>
+                            </div>
+                        </div>
+                        <div class="row ah">
+                            <li>Dự án văn phòng hạng A Lancaster Luminaire – Hình ảnh văn phòng tương lai</li>
+                            <li>TNR Grand Long Khánh – Sáng nhờ vị trí, lợi nhờ tầm nhìn</li>
+                            <li>Dự án nào hưởng lợi từ “sóng” hạ tầng khu Tây Bắc TP.HCM?</li>
+                            <li>Mê Linh (Hà Nội) lại sốt đất?</li>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="">
+                <div class="tinthitruong my-3">
+                    <div class="re_h2">
+                        <a href="" class="re_title">Tin thị trường</a>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-md-6">
+                            <div class="row mb-2">
+                                <div class="col-md-5">
+                                    <img src="https://file4.batdongsan.com.vn/crop/610x342/2022/06/21/PHJN6Zw0/20220621160842-582b.jpg" class="img-fluid" alt="">
+                                </div>
+                                <div class="col-md-7">
+                                    <p style="font-size: 13px;"><strong>
+                                        Giải cơn khát nguồn cung sản phẩm BĐS cao tầng nội thành Hà Nội
+                                    </strong></p>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col-md-12">
+                                    <p style="font-size: 12px;">Sở hữu một căn hộ trong khu vực nội thành luôn là mơ ước và mục tiêu của nhiều người dân. Nhưng sự khan hiếm các dự án chung cư cao tầng trong nội thành và giá bất động sản không ngừng leo thang lại khiến mục tiêu trên càng khó thực hiện.</p>
+                                </div>
+                            </div>
+                    </div>
+                    <div class="col-md-6">
+                        <div class="row">
+                            <div class="col-md-3">
+                                <img src="https://file4.batdongsan.com.vn/crop/140x78/2022/06/20/FTnaKngu/20220620112102-7883.jpg" class="img-fluid"  alt="">
+                            </div>
+                            <div class="col-md-9">
+                                <p style="font-size: 12px;"><strong>
+                                    Đất nền vùng ven Sài Gòn dứt sốt, nhà đầu tư tìm cách thoát hàng
+                                </strong></p>
+                            </div>
+                        </div>
+                        <div class="row ah">
+                            <li>Dự án văn phòng hạng A Lancaster Luminaire – Hình ảnh văn phòng tương lai</li>
+                            <li>TNR Grand Long Khánh – Sáng nhờ vị trí, lợi nhờ tầm nhìn</li>
+                            <li>Dự án nào hưởng lợi từ “sóng” hạ tầng khu Tây Bắc TP.HCM?</li>
+                            <li>Mê Linh (Hà Nội) lại sốt đất?</li>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-2">
+           <div class="sum mb-3">
+                <div class="re__box-header-full re__header-center">
+                    <a class="re_title">TIN NHIỀU NGƯỜI ĐỌC</a>
+                </div>
+                <div class="re__box-thumbnail">
+                        <div class="roww mb-3" style="display: flex; gap:0 10px;">
+                          <div class="coll" style="width:35%">
+                            <img src="https://file4.batdongsan.com.vn/crop/60x60/2022/06/20/YSUn3oGJ/20220620182719-2796.jpg" class="img-fluid w-100" alt="">
+                          </div>
+                          <div class="coll" style="width:65%">
+                            <p href="" style="font-size: 10px;">BĐS nửa cuối năm 2022: lẻ sẽ trở nên thận trọng hơn</p>
+                          </div>
+                        </div>
+                        <div class="roww mb-3" style="display: flex; gap:0 10px;">
+                          <div class="coll" style="width:35%">
+                            <img src="https://file4.batdongsan.com.vn/crop/60x60/2022/06/20/YSUn3oGJ/20220620182719-2796.jpg" class="img-fluid w-100" alt="">
+                          </div>
+                          <div class="coll" style="width:65%">
+                            <p href="" style="font-size: 10px;">BĐS nửa cuối năm 2022: lẻ sẽ trở nên thận trọng hơn</p>
+                          </div>
+                        </div>
+                        <div class="roww mb-3" style="display: flex; gap:0 10px;">
+                          <div class="coll" style="width:35%">
+                            <img src="https://file4.batdongsan.com.vn/crop/60x60/2022/06/20/YSUn3oGJ/20220620182719-2796.jpg" class="img-fluid w-100" alt="">
+                          </div>
+                          <div class="coll" style="width:65%">
+                            <p href="" style="font-size: 10px;">BĐS nửa cuối năm 2022: lẻ sẽ trở nên thận trọng hơn</p>
+                          </div>
+                        </div>
+                        <div class="roww mb-3" style="display: flex; gap:0 10px;">
+                          <div class="coll" style="width:35%">
+                            <img src="https://file4.batdongsan.com.vn/crop/60x60/2022/06/20/YSUn3oGJ/20220620182719-2796.jpg" class="img-fluid w-100" alt="">
+                          </div>
+                          <div class="coll" style="width:65%">
+                            <p href="" style="font-size: 10px;">BĐS nửa cuối năm 2022: lẻ sẽ trở nên thận trọng hơn</p>
+                          </div>
+                        </div>
+                </div>
+           </div>
+           <div class="sum mb-3">
+            <div class="re__box-header-full re__header-center">
+                <a class="re_title" style="font-size: 11px;">CHỦ ĐỀ ĐƯỢC QUAN TÂM</a>
+            </div>
+            <div class="re__box-thumbnail">
+                    <div class="roww mb-3 ah">
+                      <li>Đánh giá dự án</li>
+                      <li>Hội nghị bất động sản</li>
+                      <li>Chuyện tìm nhà</li>
+                      <li>Kinh nghiệm mua bán nhà </li>
+                      <li>Báo cáo tâm lý người tiêu dùng BĐS</li>
+                    </div>
+                   
+            </div>
+       </div>
+       <div class="sum mb-3">
+        <div class="re__box-header-full re__header-center">
+            <a class="re_title" style="font-size: 11px;">hỖ TRỢ TIỆN ÍCH</a>
+        </div>
+        <div class="re__box-thumbnail">
+                <div class="rowww mb-3 ah">
+                  <li>
+                   <a href=""> <img src="https://file4.batdongsan.com.vn/images/icon-phongthuy.png" class="mr-1" alt="">
+                    Đánh giá dự án</a></li>
+                    <li>
+                      <a href=""> <img src="https://file4.batdongsan.com.vn/images/icon-chiphi.png" class="mr-1" alt="">
+                       Đánh tính chi phí làm nhà</a></li>
+                       <li style="border: none;">
+                        <a href=""> <img src="https://file4.batdongsan.com.vn/images/icon-laisuat.png" class="mr-1" alt="">
+                         Tính lãi suất</a></li>
+                  
+                </div>
+               
+        </div>
+   </div>
+        </div>
+        <div class="col-md-2">
+            <img src="https://tpc.googlesyndication.com/simgad/11199190348116034968" class="img-fluid w-100" alt="">
+        </div>
+    </div>
+  </div>
+
+                <!-- Tabs navs -->
+
+  <!-- Footer -->
+<footer class="bg-dark text-center text-white">
+  <!-- Grid container -->
+  <div class="container p-4">
+    <!-- Section: Social media -->
+    <section class="mb-4">
+      <!-- Facebook -->
+      <a class="btn btn-outline-light btn-floating m-1" href="#!" role="button"
+        ><i class="fab fa-facebook-f"></i
+      ></a>
+
+      <!-- Twitter -->
+      <a class="btn btn-outline-light btn-floating m-1" href="#!" role="button"
+        ><i class="fab fa-twitter"></i
+      ></a>
+
+      <!-- Google -->
+      <a class="btn btn-outline-light btn-floating m-1" href="#!" role="button"
+        ><i class="fab fa-google"></i
+      ></a>
+
+      <!-- Instagram -->
+      <a class="btn btn-outline-light btn-floating m-1" href="#!" role="button"
+        ><i class="fab fa-instagram"></i
+      ></a>
+
+      <!-- Linkedin -->
+      <a class="btn btn-outline-light btn-floating m-1" href="#!" role="button"
+        ><i class="fab fa-linkedin-in"></i
+      ></a>
+
+      <!-- Github -->
+      <a class="btn btn-outline-light btn-floating m-1" href="#!" role="button"
+        ><i class="fab fa-github"></i
+      ></a>
+    </section>
+    <!-- Section: Social media -->
+
+    <!-- Section: Form -->
+    <section class="">
+      <form action="">
+        <!--Grid row-->
+        <div class="row d-flex justify-content-center">
+          <!--Grid column-->
+          <div class="col-auto">
+            <p class="pt-2">
+              <strong>Sign up for our newsletter</strong>
+            </p>
+          </div>
+          <!--Grid column-->
+
+          <!--Grid column-->
+          <div class="col-md-5 col-12">
+            <!-- Email input -->
+            <div class="form-outline form-white mb-4">
+              <input type="email" id="form5Example21" class="form-control" />
+              <label class="form-label" for="form5Example21">Email address</label>
+            </div>
+          </div>
+          <!--Grid column-->
+
+          <!--Grid column-->
+          <div class="col-auto">
+            <!-- Submit button -->
+            <button type="submit" class="btn btn-outline-light mb-4">
+              Subscribe
+            </button>
+          </div>
+          <!--Grid column-->
+        </div>
+        <!--Grid row-->
+      </form>
+    </section>
+    <!-- Section: Form -->
+
+    <!-- Section: Text -->
+    <section class="mb-4">
+      <p>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Sunt distinctio earum
+        repellat quaerat voluptatibus placeat nam, commodi optio pariatur est quia magnam
+        eum harum corrupti dicta, aliquam sequi voluptate quas.
+      </p>
+    </section>
+    <!-- Section: Text -->
+
+    <!-- Section: Links -->
+    <section class="">
+      <!--Grid row-->
+      <div class="row">
+        <!--Grid column-->
+        <div class="col-lg-3 col-md-6 mb-4 mb-md-0">
+          <h5 class="text-uppercase">Links</h5>
+
+          <ul class="list-unstyled mb-0">
+            <li>
+              <a href="#!" class="text-white">Link 1</a>
+            </li>
+            <li>
+              <a href="#!" class="text-white">Link 2</a>
+            </li>
+            <li>
+              <a href="#!" class="text-white">Link 3</a>
+            </li>
+            <li>
+              <a href="#!" class="text-white">Link 4</a>
+            </li>
+          </ul>
+        </div>
+        <!--Grid column-->
+
+        <!--Grid column-->
+        <div class="col-lg-3 col-md-6 mb-4 mb-md-0">
+          <h5 class="text-uppercase">Links</h5>
+
+          <ul class="list-unstyled mb-0">
+            <li>
+              <a href="#!" class="text-white">Link 1</a>
+            </li>
+            <li>
+              <a href="#!" class="text-white">Link 2</a>
+            </li>
+            <li>
+              <a href="#!" class="text-white">Link 3</a>
+            </li>
+            <li>
+              <a href="#!" class="text-white">Link 4</a>
+            </li>
+          </ul>
+        </div>
+        <!--Grid column-->
+
+        <!--Grid column-->
+        <div class="col-lg-3 col-md-6 mb-4 mb-md-0">
+          <h5 class="text-uppercase">Links</h5>
+
+          <ul class="list-unstyled mb-0">
+            <li>
+              <a href="#!" class="text-white">Link 1</a>
+            </li>
+            <li>
+              <a href="#!" class="text-white">Link 2</a>
+            </li>
+            <li>
+              <a href="#!" class="text-white">Link 3</a>
+            </li>
+            <li>
+              <a href="#!" class="text-white">Link 4</a>
+            </li>
+          </ul>
+        </div>
+        <!--Grid column-->
+
+        <!--Grid column-->
+        <div class="col-lg-3 col-md-6 mb-4 mb-md-0">
+          <h5 class="text-uppercase">Links</h5>
+
+          <ul class="list-unstyled mb-0">
+            <li>
+              <a href="#!" class="text-white">Link 1</a>
+            </li>
+            <li>
+              <a href="#!" class="text-white">Link 2</a>
+            </li>
+            <li>
+              <a href="#!" class="text-white">Link 3</a>
+            </li>
+            <li>
+              <a href="#!" class="text-white">Link 4</a>
+            </li>
+          </ul>
+        </div>
+        <!--Grid column-->
+      </div>
+      <!--Grid row-->
+    </section>
+    <!-- Section: Links -->
+  </div>
+  <!-- Grid container -->
+
+  <!-- Copyright -->
+  <div class="text-center p-3" style="background-color: rgba(0, 0, 0, 0.2);">
+    © 2020 Copyright:
+    <a class="text-white" href="https://mdbootstrap.com/">MDBootstrap.com</a>
+  </div>
+  <!-- Copyright -->
+</footer>
+<!-- Footer -->
+
+
+
+
+
+    <script
+      type="text/javascript"
+      src="https://cdnjs.cloudflare.com/ajax/libs/mdb-ui-kit/4.2.0/mdb.min.js"
+    ></script>
+    <script src="js/owl.carousel.min.js"></script>
+    <script src="js/main.js"></script>
+  </body>
+</html>

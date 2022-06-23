@@ -1,0 +1,55 @@
+a:hover {
+    text-decoration: none;
+  }
+  .re_card_nd{
+      -webkit-line-clamp: 2;
+      -webkit-box-orient: vertical;
+      display: -webkit-box;
+      overflow: hidden;
+  }
+  .re__card-image{
+      width: 240px;
+      display: block;
+  }
+  .re__card-info{
+      width: calc(100%-240px);
+  }
+  .km{
+      -webkit-line-clamp: 2;
+      -webkit-box-orient: vertical;
+      display: -webkit-box;
+      overflow: hidden;
+      font-size: 14px;
+  }
+  li{
+      list-style: none;
+      margin-bottom: 12px;
+      cursor: pointer;
+  }
+  .pa{
+      padding: 15px;
+      border: 1px solid #f2f2f2;
+      border-radius: 8px;
+      margin-bottom: 15px;
+  }
+  .pa li:hover{
+      color: #999;
+  }
+  .na{
+      padding: 15px;
+      border: 1px solid #f2f2f2;
+      border-radius: 8px;
+      margin-bottom: 15px;
+      background-color: #f2f2f2;
+  }
+  .na li:hover{
+      color: #999;
+  }
+  .form-select:focus {
+      border-color: rgb(112, 112, 112);
+      outline: none;
+      box-shadow: none !important;
+  }
+  .card-body h5{
+    font-size: 18px;
+  }
